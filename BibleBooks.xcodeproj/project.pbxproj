@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34645CFBD0E81693453506A7 /* Pods_BibleBooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF78C9779652821587A92DE6 /* Pods_BibleBooks.framework */; };
+		C3193D341C1F4F3D0082A594 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3193D331C1F4F3D0082A594 /* LoginVC.swift */; settings = {ASSET_TAGS = (); }; };
+		C3193D361C1F4F4A0082A594 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3193D351C1F4F4A0082A594 /* RegisterVC.swift */; settings = {ASSET_TAGS = (); }; };
+		C3193D381C1F4FA20082A594 /* PhoneCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3193D371C1F4FA20082A594 /* PhoneCore.swift */; settings = {ASSET_TAGS = (); }; };
+		C3193D3A1C1F51EB0082A594 /* GameTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3193D391C1F51EB0082A594 /* GameTableVC.swift */; settings = {ASSET_TAGS = (); }; };
+		C3193D3C1C1F55670082A594 /* BibleBooksMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3193D3B1C1F55670082A594 /* BibleBooksMain.swift */; settings = {ASSET_TAGS = (); }; };
+		C3193D3E1C1F56DB0082A594 /* bibleBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3193D3D1C1F56DB0082A594 /* bibleBookCell.swift */; settings = {ASSET_TAGS = (); }; };
+		C3193D401C1F62500082A594 /* WatchCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3193D3F1C1F62500082A594 /* WatchCore.swift */; settings = {ASSET_TAGS = (); }; };
+		C3193D421C1F64130082A594 /* CorrectGuesesICInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3193D411C1F64130082A594 /* CorrectGuesesICInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
 		C338F5B31C1F4E17009610A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338F5B21C1F4E17009610A3 /* AppDelegate.swift */; };
 		C338F5B51C1F4E17009610A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338F5B41C1F4E17009610A3 /* ViewController.swift */; };
 		C338F5B81C1F4E17009610A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C338F5B61C1F4E17009610A3 /* Main.storyboard */; };
@@ -18,7 +27,6 @@
 		C338F5DE1C1F4E17009610A3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C338F5DC1C1F4E17009610A3 /* Interface.storyboard */; };
 		C338F5E01C1F4E17009610A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C338F5DF1C1F4E17009610A3 /* Assets.xcassets */; };
 		C338F5E71C1F4E17009610A3 /* BibleBooks WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C338F5E61C1F4E17009610A3 /* BibleBooks WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C338F5EE1C1F4E17009610A3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338F5ED1C1F4E17009610A3 /* InterfaceController.swift */; };
 		C338F5F01C1F4E17009610A3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338F5EF1C1F4E17009610A3 /* ExtensionDelegate.swift */; };
 		C338F5F21C1F4E17009610A3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338F5F11C1F4E17009610A3 /* NotificationController.swift */; };
 		C338F5F41C1F4E17009610A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C338F5F31C1F4E17009610A3 /* Assets.xcassets */; };
@@ -81,6 +89,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C3193D331C1F4F3D0082A594 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C3193D351C1F4F4A0082A594 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		C3193D371C1F4FA20082A594 /* PhoneCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCore.swift; sourceTree = "<group>"; };
+		C3193D391C1F51EB0082A594 /* GameTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTableVC.swift; sourceTree = "<group>"; };
+		C3193D3B1C1F55670082A594 /* BibleBooksMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleBooksMain.swift; sourceTree = "<group>"; };
+		C3193D3D1C1F56DB0082A594 /* bibleBookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bibleBookCell.swift; sourceTree = "<group>"; };
+		C3193D3F1C1F62500082A594 /* WatchCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchCore.swift; sourceTree = "<group>"; };
+		C3193D411C1F64130082A594 /* CorrectGuesesICInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorrectGuesesICInterfaceController.swift; sourceTree = "<group>"; };
 		C338F5AF1C1F4E17009610A3 /* BibleBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C338F5B21C1F4E17009610A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C338F5B41C1F4E17009610A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,11 +116,13 @@
 		C338F5E11C1F4E17009610A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C338F5E61C1F4E17009610A3 /* BibleBooks WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BibleBooks WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C338F5EC1C1F4E17009610A3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		C338F5ED1C1F4E17009610A3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		C338F5EF1C1F4E17009610A3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		C338F5F11C1F4E17009610A3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		C338F5F31C1F4E17009610A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C338F5F51C1F4E17009610A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF78C9779652821587A92DE6 /* Pods_BibleBooks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BibleBooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16A115EA31A458DF49A35DE /* Pods-BibleBooks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibleBooks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BibleBooks/Pods-BibleBooks.debug.xcconfig"; sourceTree = "<group>"; };
+		F01C904C2A4714D51705CD66 /* Pods-BibleBooks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibleBooks.release.xcconfig"; path = "Pods/Target Support Files/Pods-BibleBooks/Pods-BibleBooks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34645CFBD0E81693453506A7 /* Pods_BibleBooks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +158,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		385EE6C8223EF692114BC1BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF78C9779652821587A92DE6 /* Pods_BibleBooks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C338F5A61C1F4E17009610A3 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +175,8 @@
 				C338F5DB1C1F4E17009610A3 /* BibleBooks WatchKit App */,
 				C338F5EA1C1F4E17009610A3 /* BibleBooks WatchKit Extension */,
 				C338F5B01C1F4E17009610A3 /* Products */,
+				D43DED0C2BB6CBE5F438907C /* Pods */,
+				385EE6C8223EF692114BC1BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,6 +201,10 @@
 				C338F5B91C1F4E17009610A3 /* Assets.xcassets */,
 				C338F5BB1C1F4E17009610A3 /* LaunchScreen.storyboard */,
 				C338F5BE1C1F4E17009610A3 /* Info.plist */,
+				C3193D331C1F4F3D0082A594 /* LoginVC.swift */,
+				C3193D351C1F4F4A0082A594 /* RegisterVC.swift */,
+				C3193D371C1F4FA20082A594 /* PhoneCore.swift */,
+				C3193D391C1F51EB0082A594 /* GameTableVC.swift */,
 			);
 			path = BibleBooks;
 			sourceTree = "<group>";
@@ -207,12 +240,15 @@
 		C338F5EA1C1F4E17009610A3 /* BibleBooks WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C338F5ED1C1F4E17009610A3 /* InterfaceController.swift */,
 				C338F5EF1C1F4E17009610A3 /* ExtensionDelegate.swift */,
 				C338F5F11C1F4E17009610A3 /* NotificationController.swift */,
+				C3193D3B1C1F55670082A594 /* BibleBooksMain.swift */,
 				C338F5F31C1F4E17009610A3 /* Assets.xcassets */,
 				C338F5F51C1F4E17009610A3 /* Info.plist */,
 				C338F5EB1C1F4E17009610A3 /* Supporting Files */,
+				C3193D3D1C1F56DB0082A594 /* bibleBookCell.swift */,
+				C3193D3F1C1F62500082A594 /* WatchCore.swift */,
+				C3193D411C1F64130082A594 /* CorrectGuesesICInterfaceController.swift */,
 			);
 			path = "BibleBooks WatchKit Extension";
 			sourceTree = "<group>";
@@ -225,6 +261,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D43DED0C2BB6CBE5F438907C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D16A115EA31A458DF49A35DE /* Pods-BibleBooks.debug.xcconfig */,
+				F01C904C2A4714D51705CD66 /* Pods-BibleBooks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,10 +277,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C338F6001C1F4E17009610A3 /* Build configuration list for PBXNativeTarget "BibleBooks" */;
 			buildPhases = (
+				76390FFF5F159A3AE8F292C4 /* Check Pods Manifest.lock */,
 				C338F5AB1C1F4E17009610A3 /* Sources */,
 				C338F5AC1C1F4E17009610A3 /* Frameworks */,
 				C338F5AD1C1F4E17009610A3 /* Resources */,
 				C338F5FF1C1F4E17009610A3 /* Embed Watch Content */,
+				2D13EB53D019B30CD4479E13 /* Embed Pods Frameworks */,
+				15AA527E8600E35ADCA4893B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -411,13 +459,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15AA527E8600E35ADCA4893B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BibleBooks/Pods-BibleBooks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D13EB53D019B30CD4479E13 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BibleBooks/Pods-BibleBooks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76390FFF5F159A3AE8F292C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C338F5AB1C1F4E17009610A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C338F5B51C1F4E17009610A3 /* ViewController.swift in Sources */,
+				C3193D361C1F4F4A0082A594 /* RegisterVC.swift in Sources */,
+				C3193D381C1F4FA20082A594 /* PhoneCore.swift in Sources */,
 				C338F5B31C1F4E17009610A3 /* AppDelegate.swift in Sources */,
+				C3193D341C1F4F3D0082A594 /* LoginVC.swift in Sources */,
+				C3193D3A1C1F51EB0082A594 /* GameTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,9 +541,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3193D3C1C1F55670082A594 /* BibleBooksMain.swift in Sources */,
 				C338F5F21C1F4E17009610A3 /* NotificationController.swift in Sources */,
 				C338F5F01C1F4E17009610A3 /* ExtensionDelegate.swift in Sources */,
-				C338F5EE1C1F4E17009610A3 /* InterfaceController.swift in Sources */,
+				C3193D3E1C1F56DB0082A594 /* bibleBookCell.swift in Sources */,
+				C3193D421C1F64130082A594 /* CorrectGuesesICInterfaceController.swift in Sources */,
+				C3193D401C1F62500082A594 /* WatchCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +748,7 @@
 		};
 		C338F6011C1F4E17009610A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16A115EA31A458DF49A35DE /* Pods-BibleBooks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BibleBooks/Info.plist;
@@ -656,6 +760,7 @@
 		};
 		C338F6021C1F4E17009610A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01C904C2A4714D51705CD66 /* Pods-BibleBooks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BibleBooks/Info.plist;
@@ -732,6 +837,7 @@
 				C338F5FA1C1F4E17009610A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C338F5FC1C1F4E17009610A3 /* Build configuration list for PBXNativeTarget "BibleBooks WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +846,7 @@
 				C338F5FE1C1F4E17009610A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C338F6001C1F4E17009610A3 /* Build configuration list for PBXNativeTarget "BibleBooks" */ = {
 			isa = XCConfigurationList;
@@ -748,6 +855,7 @@
 				C338F6021C1F4E17009610A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C338F6031C1F4E17009610A3 /* Build configuration list for PBXNativeTarget "BibleBooksTests" */ = {
 			isa = XCConfigurationList;
@@ -756,6 +864,7 @@
 				C338F6051C1F4E17009610A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C338F6061C1F4E17009610A3 /* Build configuration list for PBXNativeTarget "BibleBooksUITests" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +873,7 @@
 				C338F6081C1F4E17009610A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

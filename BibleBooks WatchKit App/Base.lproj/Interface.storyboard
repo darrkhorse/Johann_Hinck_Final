@@ -1,39 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="V5V-mL-TD6">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
+        <!--BibleBooksMain-->
+        <scene sceneID="YYW-g3-qE7">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="220" y="345"/>
-        </scene>
-        <!--Static Notification Interface Controller-->
-        <scene sceneID="AEw-b0-oYE">
-            <objects>
-                <notificationController id="YCC-NB-fut">
+                <controller identifier="BibleBooksMain" hidesWhenLoading="NO" id="V5V-mL-TD6" customClass="BibleBooksMain" customModule="BibleBooks_WatchKit_Extension">
                     <items>
-                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                        <group width="1" height="31" alignment="left" id="zs6-pK-b1h">
+                            <items>
+                                <label width="136" height="33" alignment="left" text="Order the Books" textAlignment="center" id="GSF-Pb-5Fh"/>
+                            </items>
+                        </group>
+                        <table alignment="left" id="MNF-Z4-zWr">
+                            <items>
+                                <tableRow identifier="cell" id="Taf-xz-p4f" customClass="bibleBookCell" customModule="BibleBooks_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="eon-bE-k8G">
+                                        <items>
+                                            <label width="125" height="60" alignment="left" text="Label" textAlignment="center" id="ptN-EO-pqx"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="theBookLabel" destination="ptN-EO-pqx" id="ZO7-tc-mZE"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
                     </items>
-                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
-                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <outlet property="theTable" destination="MNF-Z4-zWr" id="vBA-dI-ffp"/>
                     </connections>
-                </notificationController>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="404" y="304"/>
         </scene>
-        <!--Notification Controller-->
-        <scene sceneID="ZPc-GJ-vnh">
+        <!--Correct GuesesIC Interface Controller-->
+        <scene sceneID="9gI-nc-aDN">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller hidesWhenLoading="NO" id="gtj-fq-pht" customClass="CorrectGuesesICInterfaceController" customModule="BibleBooks_WatchKit_Extension">
+                    <items>
+                        <picker width="1" height="100" alignment="left" id="IDe-7b-vij"/>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="556" y="304"/>
         </scene>
     </scenes>
 </document>
